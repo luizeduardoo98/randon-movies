@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Movie Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-900 text-white p-4">
+    <h1 class="text-3xl font-bold text-center mb-8">Random Movie Generator</h1>
+
+    <!-- Drama -->
+    <div id="container-drama" class="mb-10 p-4 bg-gray-800 rounded-xl">
+      <h2 class="text-2xl text-center font-semibold mb-4">🎭 Drama</h2>
+      <div class="flex justify-center mb-4">
+        <button
+          id="btn-drama"
+          class="flex justify-center bg-yellow-600 hover:bg-black text-white font-bold py-2 px-4 rounded mb-4"
+        >
+          🎲 Get New Drama Movie
+        </button>
+      </div>
+      <div id="drama-result"></div>
+    </div>
+
+    <!-- Mystery -->
+    <div id="container-mystery" class="mb-10 p-4 bg-gray-800 rounded-xl">
+      <h2 class="text-2xl text-center font-semibold mb-4">🕵️‍♂️ Mystery</h2>
+      <div class="flex justify-center mb-4">
+        <button
+          id="btn-mystery"
+          class="flex justify-center bg-yellow-600 hover:bg-black text-white font-bold py-2 px-4 rounded mb-4"
+        >
+          🎲 Get New Mystery Movie
+        </button>
+      </div>
+      <div id="mystery-result"></div>
+    </div>
+
+    <!-- Horror -->
+    <div id="container-horror" class="mb-10 p-4 bg-gray-800 rounded-xl">
+      <h2 class="text-2xl text-center font-semibold mb-4">👻 Horror</h2>
+      <div class="flex justify-center mb-4">
+        <button
+          id="btn-horror"
+          class="flex justify-center bg-yellow-600 hover:bg-black text-white font-bold py-2 px-4 rounded mb-4"
+        >
+          🎲 Get New Horror Movie
+        </button>
+      </div>
+      <div id="horror-result"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
