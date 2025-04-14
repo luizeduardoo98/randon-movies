@@ -6,7 +6,7 @@ A simple web app that generates a random movie when you click the button. Built 
 
 ## 📱 Demo (Mobile Version)
 
-🎥 Watch the demo video: [movies-project.mp4](./movies-project.mp4)
+![Demo](./movies-project.gif)
 
 ## 🧩 Features
 
@@ -21,6 +21,5 @@ A simple web app that generates a random movie when you click the button. Built 
 - Tailwind CSS
 - JavaScript
 - [TMDb API](https://www.themoviedb.org/)
-
 
 
